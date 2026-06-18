@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@import './globals.css';
+
+@theme inline {
+  --color-landing-cream: #f5f0e8;
+  --color-landing-brown: #5c4033;
+  --color-landing-brown-dark: #2c2420;
+  --color-landing-badge: #d4a04a;
+  --color-landing-forest: #1f3d31;
+  --color-landing-forest-accent: #9bc4a8;
+  --color-landing-footer: #17120f;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer components {
+  .landing-shell {
+    width: 70%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "general": {
+    "welcome": "Welcome to Pages & Co.",
+    "go_back": "Go back",
+    "processing": "Processing...",
+    "loading": "Loading...",
+    "loading_connect_stream": "Preparing your reading experience",
+    "all": "All",
+    "empty_data": "No books found",
+    "empty_commentator": "No featured titles yet",
+    "today": "Today",
+    "change_image": "Change image",
+    "empty_stream": "Content unavailable",
+    "pause_video": "Pause",
+    "play_video": "Play",
+    "unmute": "Unmute",
+    "mute": "Mute",
+    "volume": "Volume",
+    "pip": "Picture in picture",
+    "full_screen": "Full screen",
+    "previous_page": "Previous",
+    "next_page": "Next",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "language": "Language",
+    "search_titles_authors": "Search titles, authors..."
+  },
+  "action": {
+    "search": "Search",
+    "select_all": "Select all",
+    "all": "All",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "refresh": "Refresh",
+    "selected_file": "Select file",
+    "selected_image": "Select image",
+    "change_file": "Change file",
+    "remove_file": "Remove file",
+    "remove_image": "Remove image",
+    "drag_and_drop": "Drag and drop or click to browse",
+    "sign_in": "Sign in"
+  },
+  "message": {
+    "success": "Success",
+    "error": "Error",
+    "failed": "Something went wrong. Please try again.",
+    "page_not_found": "This page could not be found",
+    "invalid_field": "Some fields are invalid",
+    "coming_soon2": "Coming soon",
+    "developing2": "This section is being prepared for Pages & Co.",
+    "are_your_sure": "Are you sure?",
+    "failed_upload": "Upload failed. Please try again."
+  },
+  "form": {
+    "account": "Account",
+    "username": "Username",
+    "full_name": "Full name",
+    "password": "Password",
+    "new_password": "New password",
+    "password_confirmation": "Confirm password",
+    "phone": "Phone number",
+    "email": "Email",
+    "required_input_$field": "{field} is required",
+    "invalid_format_$field": "{field} has an invalid format",
+    "$field_$min": "{field} must be at least {min} characters",
+    "$field_$max": "{field} must be at most {max} characters",
+    "invalid_file": "Invalid file",
+    "invalid_image": "Invalid image"
+  },
+  "menu": {
+    "home": "Home",
+    "shop-all": "Shop All",
+    "fiction": "Fiction",
+    "mystery": "Mystery",
+    "children": "Children",
+    "poetry": "Poetry"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "logout": "Sign out"
+  },
+  "profile": {
+    "title": "My account"
+  },
+  "blv": {
+    "title": "Featured picks"
+  },
+  "language": {
+    "vi": "Vietnamese",
+    "en": "English"
+  },
+  "notice": {
+    "notification": "Notification"
+  },
+  "validate_form_message": {
+    "required_code": "Please enter a code"
+  },
+  "change_password": {
+    "title": "Change password"
+  },
+  "notificationAbcvip": {
+    "title": "About Pages & Co."
+  },
+  "other": {
+    "bag": "Bag"
+  }
+}

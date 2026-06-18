@@ -1,0 +1,112 @@
+{
+  "general": {
+    "welcome": "Chào mừng đến Pages & Co.",
+    "go_back": "Quay lại",
+    "processing": "Đang xử lý...",
+    "loading": "Đang tải...",
+    "loading_connect_stream": "Đang chuẩn bị trải nghiệm đọc sách",
+    "all": "Tất cả",
+    "empty_data": "Không tìm thấy sách",
+    "empty_commentator": "Chưa có đầu sách nổi bật",
+    "today": "Hôm nay",
+    "change_image": "Đổi ảnh",
+    "empty_stream": "Nội dung không khả dụng",
+    "pause_video": "Tạm dừng",
+    "play_video": "Phát",
+    "unmute": "Bật tiếng",
+    "mute": "Tắt tiếng",
+    "volume": "Âm lượng",
+    "pip": "Hình trong hình",
+    "full_screen": "Toàn màn hình",
+    "previous_page": "Trước",
+    "next_page": "Sau",
+    "follow": "Theo dõi",
+    "unfollow": "Bỏ theo dõi",
+    "language": "Ngôn ngữ",
+    "search_titles_authors": "Tìm tên sách, tác giả..."
+  },
+  "action": {
+    "search": "Tìm kiếm",
+    "select_all": "Chọn tất cả",
+    "all": "Tất cả",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "close": "Đóng",
+    "refresh": "Làm mới",
+    "selected_file": "Chọn tệp",
+    "selected_image": "Chọn ảnh",
+    "change_file": "Đổi tệp",
+    "remove_file": "Gỡ tệp",
+    "remove_image": "Gỡ ảnh",
+    "drag_and_drop": "Kéo thả hoặc bấm để chọn",
+    "sign_in": "Đăng nhập"
+  },
+  "message": {
+    "success": "Thành công",
+    "error": "Lỗi",
+    "failed": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+    "page_not_found": "Không tìm thấy trang này",
+    "invalid_field": "Một số trường không hợp lệ",
+    "coming_soon2": "Sắp ra mắt",
+    "developing2": "Mục này đang được chuẩn bị cho Pages & Co.",
+    "are_your_sure": "Bạn có chắc chắn?",
+    "failed_upload": "Tải lên thất bại. Vui lòng thử lại."
+  },
+  "form": {
+    "account": "Tài khoản",
+    "username": "Tên đăng nhập",
+    "full_name": "Họ tên",
+    "password": "Mật khẩu",
+    "new_password": "Mật khẩu mới",
+    "password_confirmation": "Xác nhận mật khẩu",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "required_input_$field": "{field} không được để trống",
+    "invalid_format_$field": "{field} không đúng định dạng",
+    "$field_$min": "{field} phải tối thiểu {min} ký tự",
+    "$field_$max": "{field} chỉ tối đa {max} ký tự",
+    "invalid_file": "Tệp không hợp lệ",
+    "invalid_image": "Ảnh không hợp lệ"
+  },
+  "menu": {
+    "home": "Trang chủ",
+    "shop-all": "Tất cả sách",
+    "fiction": "Tiểu thuyết",
+    "mystery": "Trinh thám",
+    "children": "Thiếu nhi",
+    "poetry": "Thơ"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Tạo tài khoản",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "logout": "Đăng xuất"
+  },
+  "profile": {
+    "title": "Tài khoản của tôi"
+  },
+  "blv": {
+    "title": "Đầu sách nổi bật"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "Tiếng Anh"
+  },
+  "notice": {
+    "notification": "Thông báo"
+  },
+  "validate_form_message": {
+    "required_code": "Vui lòng nhập mã"
+  },
+  "change_password": {
+    "title": "Đổi mật khẩu"
+  },
+  "notificationAbcvip": {
+    "title": "Về Pages & Co."
+  },
+  "other": {
+    "bag": "Giỏ hàng"
+  }
+}

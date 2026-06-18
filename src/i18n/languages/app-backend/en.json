@@ -1,0 +1,10 @@
+{
+  "response": {
+    "SUCCESS": "Request completed successfully.",
+    "BAD_REQUEST": "Invalid request.",
+    "UNAUTHORIZED": "Please sign in to continue.",
+    "NOT_FOUND": "The requested resource was not found.",
+    "INTERNAL_SERVER_ERROR": "An unexpected error occurred.",
+    "VALIDATION_ERROR": "Please check the submitted information."
+  }
+}

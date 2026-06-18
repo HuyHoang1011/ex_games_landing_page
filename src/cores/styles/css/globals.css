@@ -1,0 +1,127 @@
+@layer components {
+  /* * START: container * */
+  .main-container {
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .main-container {
+      padding: 0 0.5rem;
+    }
+  }
+
+  .pc-main-container {
+    padding: 0 0.2rem;
+  }
+
+  .main-container-abc1 {
+    @apply md:px-2;
+  }
+
+  @media (max-width: 1280px) {
+    .main-container-tablet-abc1 {
+      padding: 0 0.5rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .pc-main-container {
+      padding: 0;
+    }
+  }
+
+  .mb-main-container {
+    padding: 0 0;
+  }
+
+  @media (max-width: 1024px) {
+    .mb-main-container {
+      padding: 0 1rem;
+    }
+  }
+
+  /* * END container * */
+
+  /* * START: title * */
+  .title-wings {
+    position: relative;
+    text-align: center;
+    display: block;
+  }
+
+  .title-wings::before,
+  .title-wings::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+
+  .color-title-wings {
+    background: linear-gradient(266.54deg, var(--primary) 20.18%, var(--primary) 76.02%, var(--primary-light) 98.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* * END: title * */
+
+  /* * START: Scroll-bar * */
+  .hide-scrollbar {
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #c93c45 #ffbcc0;
+    /* thumb color | track color */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #ffbcc0;
+    /* Màu nền track */
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #c93c45;
+    /* Màu thumb */
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #a8323a;
+    /* Màu thumb khi hover */
+  }
+
+  /* * END: Scroll-bar * */
+
+  /* * START: RECAPTCHA * */
+  .grecaptcha-badge {
+    visibility: hidden;
+  }
+
+  /* * END: RECAPTCHA * */
+
+  /* @media (min-width: 1530px) {
+    .main-bg-cskh {
+      height: 100% !important;
+    }
+  } */
+}
